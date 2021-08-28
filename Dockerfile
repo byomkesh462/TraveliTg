@@ -8,6 +8,7 @@ COPY . .
 RUN ./Ultroid
 WORKDIR root/TeamUltroid
 
+
 RUN pip3 install -r requirements.txt
 
 CMD ./START
